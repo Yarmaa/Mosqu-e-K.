@@ -1,9 +1,10 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Apr 18 2022 11:58:01 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 21 2022 16:58:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62580507c996a89c46f19ee7" data-wf-site="62580507c996a83700f19ee6">
 <head>
   <meta charset="utf-8">
-  <title>Mosquée K.</title>
+  <title>Mosquée Kingersheim</title>
+  <meta content="Centre Cultuel, Culturel et Educatif de Kingersheim" name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -25,12 +26,22 @@
             <h1 class="heading-2">Centre Cultuel &amp; Culturel de Kingersheim</h1>
             <p class="paragraph">Découvrez la mosquée <br>de la ville de Kingersheim</p>
           </div>
-          <a href="#" class="link-block w-inline-block"><img src="images/path178.png" loading="lazy" alt="" class="image-2">
+          <a href="https://youtu.be/3oVDPDXtE8Q" class="link-block w-inline-block"><img src="images/path178.png" loading="lazy" alt="" class="image-2">
             <p class="paragraph-2">Découvrez <br>le projet en vidéo</p>
           </a>
         </div>
       </div>
-      <div class="w-slide"></div>
+      <div class="slide-3 w-slide">
+        <div class="div-block-2">
+          <div class="div-block"><img src="images/alfath_logo.png" loading="lazy" alt="" class="image">
+            <h1 class="heading-2">Centre Cultuel &amp; Culturel de Kingersheim</h1>
+            <p class="paragraph">Découvrez la mosquée <br>de la ville de Kingersheim</p>
+          </div>
+          <a href="https://youtu.be/3oVDPDXtE8Q" class="link-block w-inline-block"><img src="images/path178.png" loading="lazy" alt="" class="image-2">
+            <p class="paragraph-2">Découvrez <br>le projet en vidéo</p>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="w-slider-arrow-left">
       <div class="w-icon-slider-left"></div>
@@ -44,12 +55,12 @@
     <div class="container w-container">
       <nav role="navigation" class="nav-menu-2 w-nav-menu">
         <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Accueil</a>
-        <a href="#le-projet" class="nav-link w-nav-link">Le projet</a>
-        <a href="#islam" class="nav-link w-nav-link">Islam</a>
-        <a href="#activit-s" class="nav-link w-nav-link">Activités</a>
-        <a href="#" class="nav-link w-nav-link">Qui sommes-nous</a>
-        <a href="#don" class="nav-link w-nav-link">Dons</a>
-        <a href="#" class="nav-link w-nav-link">Contact</a>
+        <a href="le-projet.html" class="nav-link w-nav-link">Le projet</a>
+        <a href="/#islam" class="nav-link w-nav-link">Islam</a>
+        <a href="/#le-projet" class="nav-link w-nav-link">Qui sommes-nous</a>
+        <a href="/#dons" class="nav-link w-nav-link">Dons</a>
+        <a href="les-activites.html" class="nav-link w-nav-link">Activités</a>
+        <a href="/#contact" class="nav-link w-nav-link">Contact</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -77,15 +88,15 @@
       </div>
       <div class="column w-col w-col-6 w-col-stack">
         <h1 class="heading-3">Centre Al Fath</h1>
-        <p class="paragraph-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem eum iriure dolor in he drerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at veroelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut w exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum irietuer adipiscing elit, mod tincidunt ut laoreet dolore magna</p>
-        <a href="#" class="button-2 w-button">En savoir plus</a>
+        <p class="paragraph-3">Fondée en 1995, l’association A2CSK travaille depuis de nombreuses années à la construction de notre future mosquée à la hauteur de l’évolution de la communauté musulmane de notre ville : Le Centre Cultuel, Culturel et Social - Al Fath.Notre pratique est de plus en plus compliquée dans nos locaux actuels par manque de places et certains phénomènes d’insalubrité.C’est pourquoi nous vous sollicitons aujourd’hui afin de pouvoir pratiquer dans des conditions dignes.</p>
+        <a href="le-projet.html" class="button-2 w-button">En savoir plus</a>
       </div>
     </div>
   </div>
-  <div id="don" class="section-3 dons wf-section">
+  <div id="dons" class="section-3 dons wf-section">
     <div class="columns w-row">
       <div class="column-4 w-col w-col-4 w-col-stack">
-        <div class="html-embed-3 w-embed">
+        <div class="html-embed-3 w-embed w-script">
           <style>
 .single-chart {
   width: 55%;
@@ -152,23 +163,38 @@ text {
               <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-              <path class="circle" stroke-dasharray="8.8, 100" d="M18 2.0845
+              <path class="circle" id="cercle" stroke-dasharray="8.8, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-              <text x="18" y="18" class="percentage-82">8.8%</text>
+              <text x="18" y="18" class="percentage-82" id="pourcentageGraph">8.8%</text>
               <text x="18" y="25" class="percentage">atteint</text>
             </svg>
           </div>
+          <script>
+	document.addEventListener("DOMContentLoaded", function(event) { 
+  	let montantRecolte = document.getElementById('number1').innerHTML;
+    let montantTotal = document.getElementById('number2').innerHTML;
+    let recolte = montantRecolte.replace(/ /g, '').replace('€', '');
+    let total = montantTotal.replace(/ /g, '').replace('€', '');
+    parseInt(recolte);
+    parseInt(total);
+    pourcentage = parseInt((recolte*100)/total);
+    pourcentageString = pourcentage + "," + "100";
+    console.log(pourcentageString);
+    document.getElementById("cercle").getAttributeNode("stroke-dasharray").nodeValue = pourcentageString;
+   document.getElementById("pourcentageGraph").innerHTML = pourcentage + "%";
+});
+</script>
         </div>
       </div>
       <div class="column-3 w-col w-col-4 w-col-stack">
-        <h1 class="heading-5">105 697 €</h1>
+        <h1 id="number1" class="heading-5">150 000 €</h1>
         <p class="paragraph-4">récolté</p>
         <p class="paragraph-4 _2">sur un montant total de</p>
-        <h1 class="heading-5 _2">1 200 500 €</h1>
+        <h1 id="number2" class="heading-5 _2">1 200 500 €</h1>
       </div>
       <div class="column-5 w-col w-col-4 w-col-stack">
-        <a href="#" class="button-2 don w-button">Devenez donateur</a>
+        <a href="https://www.cotizup.com/mosqueekingersheim" class="button-2 don w-button">Devenez donateur</a>
       </div>
     </div>
   </div>
@@ -183,9 +209,9 @@ text {
   </div>
   <div class="section-3 assocation wf-section">
     <h1 class="heading-6">Notre association</h1>
-    <p class="paragraph-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    <p class="paragraph-5">Fondée en 1995, l’association A2CSK travaille depuis de nombreuses années à la construction de notre future mosquée à la hauteur de l’évolution de la communauté musulmane de notre ville : Le Centre Cultuel, Culturel et Social - Al Fath.Notre pratique est de plus en plus compliquée dans nos locaux actuels par manque de places et certains phénomènes d’insalubrité.C’est pourquoi nous vous sollicitons aujourd’hui afin de pouvoir pratiquer dans des conditions dignes.</p>
   </div>
-  <div id="activit-s" class="section-6 wf-section">
+  <div id="activite" class="section-6 wf-section">
     <div class="div-block-5">
       <div class="div-block-4"><img src="images/2-layers.svg" loading="lazy" alt="" class="image-6">
         <h3 class="heading-7">Culte</h3>
@@ -203,13 +229,13 @@ text {
         <h3 class="heading-7">Paix</h3>
         <p class="paragraph-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
       </div>
-      <div class="div-block-4"><img src="images/2-layers-4.svg" loading="lazy" alt="" class="image-6">
+      <div id="w-node-_80a24a24-f359-cfe4-a7e8-ba753711a8ad-46f19ee7" class="div-block-4"><img src="images/2-layers-4.svg" loading="lazy" alt="" class="image-6">
         <h3 class="heading-7">Loisir</h3>
         <p class="paragraph-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
       </div>
     </div>
   </div>
-  <div class="section-7 wf-section">
+  <div id="contact" class="section-7 wf-section">
     <div class="columns-3 w-row">
       <div class="column-6 w-col w-col-6"><img src="images/logo.png" loading="lazy" alt="" class="image-7"></div>
       <div class="column-7 w-col w-col-6">
@@ -219,15 +245,15 @@ text {
         <div class="div-block-6">
           <a href="#" class="w-inline-block"><img src="images/2-layers-5.svg" loading="lazy" alt="" class="image-8"></a>
           <a href="#" class="w-inline-block"><img src="images/2-layers-6.svg" loading="lazy" alt="" class="image-8"></a>
-          <a href="#" class="w-inline-block"><img src="images/2-layers-7.svg" loading="lazy" alt="" class="image-8"></a>
+          <a href="mailto: contact@mosquee-kingersheim.fr" class="w-inline-block"><img src="images/2-layers-7.svg" loading="lazy" alt="" class="image-8"></a>
         </div>
       </div>
     </div>
   </div>
   <div class="section-8 wf-section">
     <div class="div-block-7">
-      <a href="#">Mentions légales</a>
-      <a href="#">Nous contacter</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="https://www.facebook.com/mosqueekingersheim/?ref=page_internal">Nous contacter</a>
       <a href="#">Plan du site</a>
     </div>
   </div>
